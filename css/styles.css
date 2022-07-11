@@ -70,7 +70,7 @@ html, body {
     font-size: 40px;
   }
 }
-@media (max-width: 470px) {
+@media (max-width: 485px) {
   .main__about-me h1 {
     font-size: 31px;
   }
@@ -78,6 +78,11 @@ html, body {
 @media (max-width: 390px) {
   .main__about-me h1 {
     font-size: 29px;
+  }
+}
+@media (max-width: 350px) {
+  .main__about-me h1 {
+    font-size: 20px;
   }
 }
 .main__about-me span {
@@ -100,14 +105,19 @@ html, body {
     font-size: 23px;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 485px) {
   .main__about-me span {
     font-size: 23px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 390px) {
   .main__about-me span {
-    font-size: 20px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 350px) {
+  .main__about-me span {
+    font-size: 13px;
   }
 }
 
