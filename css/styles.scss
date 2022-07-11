@@ -38,11 +38,75 @@ html,body {
     }       
 }  
 
-.content {
-    background-color: rgb(0, 0, 0);
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
     flex: 1 1 auto;
-}
+    background-color: rgb(0, 0, 0);
 
+    &__about-me {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 100px;
+        background: linear-gradient(rgb(21, 104, 104), rgb(192, 192, 192));
+
+        h1 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 74px;
+            color: black;
+
+            @media (max-width: 910px) {
+                font-size: 59px;
+            }
+
+            @media (max-width: 735px) {
+                font-size: 49px;
+            }
+
+            @media (max-width: 610px) {
+                font-size: 40px;
+            }
+
+            @media (max-width: 470px) {
+                font-size: 31px;
+            }
+
+            @media (max-width: 390px) {
+                font-size: 29px;
+            }
+        }
+
+        span {
+            font-family: 'Roboto', sans-serif;
+            font-size: 34px;
+            color: rgb(53, 53, 53);
+
+            @media (max-width: 910px) {
+                font-size: 27px;
+            }
+
+            @media (max-width: 735px) {
+                font-size: 25px;
+            }
+
+            @media (max-width: 610px) {
+                font-size: 23px;
+            }
+
+            @media (max-width: 450px) {
+                font-size: 23px;
+            }
+
+            @media (max-width: 375px) {
+                font-size: 20px;
+            }
+        }
+    }
+}
 
 .footer {
     width: 100%;
@@ -69,3 +133,4 @@ html,body {
         margin-top: 6px;
     }
 }
+

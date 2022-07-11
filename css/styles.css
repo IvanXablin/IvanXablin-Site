@@ -34,9 +34,81 @@ html, body {
   text-decoration: none;
 }
 
-.content {
-  background-color: rgb(0, 0, 0);
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
   flex: 1 1 auto;
+  background-color: rgb(0, 0, 0);
+}
+.main__about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100px;
+  background: linear-gradient(rgb(21, 104, 104), rgb(192, 192, 192));
+}
+.main__about-me h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 74px;
+  color: black;
+}
+@media (max-width: 910px) {
+  .main__about-me h1 {
+    font-size: 59px;
+  }
+}
+@media (max-width: 735px) {
+  .main__about-me h1 {
+    font-size: 49px;
+  }
+}
+@media (max-width: 610px) {
+  .main__about-me h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 470px) {
+  .main__about-me h1 {
+    font-size: 31px;
+  }
+}
+@media (max-width: 390px) {
+  .main__about-me h1 {
+    font-size: 29px;
+  }
+}
+.main__about-me span {
+  font-family: "Roboto", sans-serif;
+  font-size: 34px;
+  color: rgb(53, 53, 53);
+}
+@media (max-width: 910px) {
+  .main__about-me span {
+    font-size: 27px;
+  }
+}
+@media (max-width: 735px) {
+  .main__about-me span {
+    font-size: 25px;
+  }
+}
+@media (max-width: 610px) {
+  .main__about-me span {
+    font-size: 23px;
+  }
+}
+@media (max-width: 450px) {
+  .main__about-me span {
+    font-size: 23px;
+  }
+}
+@media (max-width: 375px) {
+  .main__about-me span {
+    font-size: 20px;
+  }
 }
 
 .footer {
