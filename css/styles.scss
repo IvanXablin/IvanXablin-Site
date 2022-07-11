@@ -150,6 +150,7 @@ html,body {
         min-height: 450px;
         margin: 25px;
         background: linear-gradient(to bottom right ,rgb(207, 103, 103), rgb(182, 182, 182));
+        border-radius: 10px;
 
         p {          
             font-family: 'Roboto', sans-serif;
@@ -169,6 +170,10 @@ html,body {
                 color: rgb(26, 26, 26);
             }          
         }
+    }
+
+    &__item:hover {
+        background: linear-gradient(to bottom right, rgb(141, 82, 82), rgb(182, 182, 182));
     }
 }
 

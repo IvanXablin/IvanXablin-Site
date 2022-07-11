@@ -153,6 +153,7 @@ html, body {
   min-height: 450px;
   margin: 25px;
   background: linear-gradient(to bottom right, rgb(207, 103, 103), rgb(182, 182, 182));
+  border-radius: 10px;
 }
 .main-list__item p {
   font-family: "Roboto", sans-serif;
@@ -169,6 +170,9 @@ html, body {
   font-family: "Roboto", sans-serif;
   font-size: 17px;
   color: rgb(26, 26, 26);
+}
+.main-list__item:hover {
+  background: linear-gradient(to bottom right, rgb(141, 82, 82), rgb(182, 182, 182));
 }
 
 .footer {
