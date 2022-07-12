@@ -50,6 +50,7 @@ html ::-webkit-scrollbar-thumb, body ::-webkit-scrollbar-thumb {
   display: flex;
   flex-direction: column;
   flex: 1 1 auto;
+  background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(26, 23, 23));
 }
 .main__about-me {
   display: flex;
@@ -58,7 +59,7 @@ html ::-webkit-scrollbar-thumb, body ::-webkit-scrollbar-thumb {
   align-items: center;
   width: 100%;
   height: 700px;
-  background: linear-gradient(rgb(21, 104, 104), rgb(192, 192, 192));
+  background: linear-gradient(#80FF72, #04d2f7);
 }
 .main__about-me h1 {
   font-family: "Roboto", sans-serif;
@@ -137,13 +138,37 @@ html ::-webkit-scrollbar-thumb, body ::-webkit-scrollbar-thumb {
   align-items: center;
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgb(0, 0, 0), rgb(19, 19, 19));
 }
 .main__skills h2 {
   padding-top: 30px;
   font-family: "Roboto", sans-serif;
   font-size: 44px;
   color: rgb(255, 255, 255);
+}
+.main__resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 300px;
+}
+.main__resume h2 {
+  padding-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 44px;
+  color: rgb(255, 255, 255);
+}
+.main__resume a .main__btn-download {
+  width: 100px;
+  height: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 19px;
+  background: linear-gradient(rgb(255, 255, 255), rgb(255, 189, 189));
+  border: none;
+  border-radius: 10px;
+  color: #000;
 }
 
 .main-list {
@@ -167,10 +192,13 @@ html ::-webkit-scrollbar-thumb, body ::-webkit-scrollbar-thumb {
 }
 .main-list__item p {
   font-family: "Roboto", sans-serif;
+  font-weight: 700;
   font-size: 40px;
   color: #fff;
 }
 .main-list__item ul {
+  display: flex;
+  flex-direction: column;
   margin-left: 0;
   padding-left: 0;
   padding-top: 5px;
@@ -178,7 +206,7 @@ html ::-webkit-scrollbar-thumb, body ::-webkit-scrollbar-thumb {
 .main-list__item ul li {
   list-style-type: none;
   font-family: "Roboto", sans-serif;
-  font-size: 17px;
+  font-size: 18px;
   color: rgb(26, 26, 26);
 }
 .main-list__item:hover {
