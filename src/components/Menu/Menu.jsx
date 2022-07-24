@@ -2,7 +2,7 @@ import styles from './Menu.module.scss';
 
 const Menu = ({active, setActive}) => {
     return (
-        <div className={active ? styles.menuActive : styles.menu}>
+        <div className={active ? styles.menu : styles.menuActive}>
             <div className={styles.menu__content}>
                 <ul className={styles.menu__nav}>
                     <li><a href="/">Home</a></li>
