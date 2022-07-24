@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/IvanXablin-Site/static/css/main.32351511.css",
-    "main.js": "/IvanXablin-Site/static/js/main.4bb44f3b.js",
+    "main.js": "/IvanXablin-Site/static/js/main.19f691af.js",
     "static/media/bg.png": "/IvanXablin-Site/static/media/bg.5d6af1c07017d03ef5d0.png",
     "index.html": "/IvanXablin-Site/index.html",
     "main.32351511.css.map": "/IvanXablin-Site/static/css/main.32351511.css.map",
-    "main.4bb44f3b.js.map": "/IvanXablin-Site/static/js/main.4bb44f3b.js.map"
+    "main.19f691af.js.map": "/IvanXablin-Site/static/js/main.19f691af.js.map"
   },
   "entrypoints": [
     "static/css/main.32351511.css",
-    "static/js/main.4bb44f3b.js"
+    "static/js/main.19f691af.js"
   ]
 }
